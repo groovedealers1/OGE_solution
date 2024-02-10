@@ -20,4 +20,5 @@ def solution_1_weight():
     return f'статья весит {(pages * strings * count_symbol * symbol_weight) / 8192} Кбайт'
 
 
-print(solution_1_word())
+if __name__ == "__main__":
+    print(solution_1_word())
